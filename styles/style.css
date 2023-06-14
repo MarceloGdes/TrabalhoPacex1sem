@@ -50,7 +50,17 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
-@media (max-width: 1200px) {
+.rodape {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 170px   ;
+    margin-bottom: 0;
+    background-color: lightgrey;
+}
+
+
+@media (min-width: 1200px) {
     nav {
         max-width: 70%;
     }
